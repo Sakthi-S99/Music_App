@@ -1,0 +1,17 @@
+<div
+  class="app-splash-screen"
+  [ngStyle]="{ 
+    left: windowWidth, 
+    opacity: opacityChange,
+    transition: splashTransition
+  }"
+  *ngIf="showSplash"
+>
+  <div class="app-splash-inner">
+    <div class="app-logo">
+      <img src="/home/sakthi/Desktop/CAMP/NIghtbirde/nightbirde/src/assets/logo.jpeg"><img>
+    </div>
+    <div class="app-label">NightBirde</div>
+    <div class="app-loader"></div>
+  </div>
+</div>

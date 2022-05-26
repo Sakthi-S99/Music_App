@@ -1,0 +1,48 @@
+/*.container{
+    width: 100%;
+    margin: 5px;
+}
+
+.coloumn{
+    float: left;
+    width: 24%;
+    padding: 5px;
+}
+.colomn{
+    
+    width: 24%;
+    padding: 5px;
+    
+    
+}
+
+.button img{
+    padding: 5px;
+    width:50px;
+}*/
+#search{
+    position:absolute;
+    left:20%;
+    top:25%;
+    width:30%;
+}
+.coloumn{
+    float: left;
+    width: 24%;
+    padding: 5px;
+}
+.colomn{
+    
+    width: 24%;
+    padding: 5px;
+    
+    
+}
+.row::after{
+    content: "";
+    clear: both;
+    display: block;
+}
+.navbar.a{
+    background-color: rgb(137, 20, 206)
+}
